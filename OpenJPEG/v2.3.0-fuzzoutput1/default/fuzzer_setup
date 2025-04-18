@@ -1,0 +1,6 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=/home/waiwai/fuzz/fuzz-target-waiwai/OpenJPEG/openjpeg-v2.3.0/build/bin/opj_decompress
+AFL_CUSTOM_INFO_PROGRAM_ARGV=-i @@ -o test.raw
+AFL_CUSTOM_INFO_OUT=./fuzzoutput1/default
+# command line:
+'afl-fuzz' '-i' './pocRep/poc-test' '-o' './fuzzoutput1' '-m' '0' '-t' '10000' '--' '/home/waiwai/fuzz/fuzz-target-waiwai/OpenJPEG/openjpeg-v2.3.0/build/bin/opj_decompress' '-i' '@@' '-o' 'test.raw'
