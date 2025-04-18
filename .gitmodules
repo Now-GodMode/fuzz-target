@@ -7,3 +7,9 @@
 [submodule "OpenJPEG/pocRep"]
 	path = OpenJPEG/pocRep
 	url = https://github.com/pic4xiu/pocRep.git
+[submodule "ImageMagick/ImageMagick-7.1.0-28"]
+	path = ImageMagick/ImageMagick-7.1.0-28
+	url = https://github.com/ImageMagick/ImageMagick.git
+[submodule "ImageMagick/ImageMagick-7.1.1-47"]
+	path = ImageMagick/ImageMagick-7.1.1-47
+	url = https://github.com/ImageMagick/ImageMagick.git
