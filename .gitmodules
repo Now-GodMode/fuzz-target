@@ -1,3 +1,7 @@
 [submodule "OpenJPEG/openjpeg-v2.3.0"]
 	path = OpenJPEG/openjpeg-v2.3.0
 	url = https://github.com/uclouvain/openjpeg.git
+
+[submodule "OpenJPEG/CVE-2020-27814"]
+	path = OpenJPEG/CVE-2020-27814
+	url = https://github.com/uclouvain/openjpeg.git
