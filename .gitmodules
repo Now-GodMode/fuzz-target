@@ -13,3 +13,10 @@
 [submodule "ImageMagick/ImageMagick-7.1.1-47"]
 	path = ImageMagick/ImageMagick-7.1.1-47
 	url = https://github.com/ImageMagick/ImageMagick.git
+[submodule "OpenJPEG/CVE-2020-27814_patch"]
+	path = OpenJPEG/CVE-2020-27814_patch
+	url = https://github.com/uclouvain/openjpeg.git
+[submodule "OpenJPEG/CVE-2020-27814_nopatch"]
+	path = OpenJPEG/CVE-2020-27814_nopatch
+	url = https://github.com/uclouvain/openjpeg.git
+
