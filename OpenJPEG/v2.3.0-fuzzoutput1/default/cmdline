@@ -1,0 +1,5 @@
+/home/waiwai/fuzz/fuzz-target-waiwai/OpenJPEG/openjpeg-v2.3.0/build/bin/opj_decompress
+-i
+@@
+-o
+test.raw

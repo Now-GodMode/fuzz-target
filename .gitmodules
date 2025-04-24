@@ -19,3 +19,4 @@
 [submodule "OpenJPEG/CVE-2020-27814_nopatch"]
 	path = OpenJPEG/CVE-2020-27814_nopatch
 	url = https://github.com/uclouvain/openjpeg.git
+
