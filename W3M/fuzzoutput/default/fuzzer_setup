@@ -1,0 +1,9 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=/src/fuzz1/w3m-0.5.3-git20220429/build/bin/w3m
+AFL_CUSTOM_INFO_PROGRAM_ARGV=-dump @@
+AFL_CUSTOM_INFO_OUT=./fuzzoutput2/default
+AFL_I_DONT_CARE_ABOUT_MISSING_CRASHES=1
+AFL_TRY_AFFINITY=1
+AFL_SKIP_CPUFREQ=1
+# command line:
+'afl-fuzz' '-i' './w3m' '-o' './fuzzoutput2' '-C' '--' '/src/fuzz1/w3m-0.5.3-git20220429/build/bin/w3m' '-dump' '@@'
