@@ -20,3 +20,6 @@
 	path = OpenJPEG/CVE-2020-27814_nopatch
 	url = https://github.com/uclouvain/openjpeg.git
 
+[submodule "W3M/w3m"]
+	path = W3M/w3m
+	url = https://github.com/tats/w3m.git
